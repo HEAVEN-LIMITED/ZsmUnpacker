@@ -38,7 +38,7 @@ public class ZsmPatcher {
 		}
 	}
 
-	// 32 bit LittleEndian
+	// 32 bit LittleEndian 这个key每个平台都不一样 可以自己研究一下
 	private static long[] xkey = new long[] { 0x00000000 & 0xffffffffL, 0x00000000 & 0xffffffffL,
 			0x00000000 & 0xffffffffL, 0x00000000 & 0xffffffffL, 0x00000000 & 0xffffffffL, 0x00000000 & 0xffffffffL,
 			0x3444D771 & 0xffffffffL, 0x26A6BC48 & 0xffffffffL, 0x25626B4E & 0xffffffffL, 0x1B935E6C & 0xffffffffL,
